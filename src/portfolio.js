@@ -16,30 +16,28 @@ const splashScreen = {
 // Summary And Greeting Section
 
 const illustration = {
-  animated: true // Set to false to use static SVG
+  animated: false
+  // Set to false to use static SVG
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Minh Anh Nguyen",
+  title: "Hi! It's Minh Anh",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A Computer Science student at York University with a strong passion 🚀 for cybersecurity and software development. Proficient in building secure and scalable applications using React, Java, and PostgreSQL, with hands-on experience implementing secure authentication protocols such as JSON Web Tokens (JWT). Enthusiastic about learning new technologies and contributing to the design of secure, innovative, and efficient systems."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1OdJHSFbLaoCSGfORkBe3E0UiZtDKOQVu/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "/https://github.com/minhanh0503",
+  linkedin: "https://www.linkedin.com/in/minh-anh-nguy%E1%BB%85n-82968021a/",
+  gmail: "nguyeminhanh290503@gmail.com",
+
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -48,15 +46,23 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "What can I do",
+  subTitle: "I WANT TO EXPLORE AND LEARN EVERY TECH STACK",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Proficient in HTML5, CSS, and JavaScript for building interactive user interfaces. Experienced with frameworks like React.js for dynamic front-end applications."
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Hands-on experience with Node.js for server-side development. Skilled in designing and managing SQL databases using PostgreSQL and MySQL."
+    ),
+    emoji(
+      "⚡ Implemented secure authentication protocols such as JSON Web Tokens (JWT) to ensure user data protection. Knowledge of Discretionary Access Control (DAC) and Mandatory Access Control (MAC) for system security."
+    ),
+    emoji(
+      " ⚡Implemented secure authentication protocols such as JSON Web Tokens (JWT) to ensure user data protection. Knowledge of Discretionary Access Control (DAC) and Mandatory Access Control (MAC) for system security."
+    ),
+    emoji(
+      " ⚡I am proficient in Agile practices, including Scrum Framework, Sprint Planning, Retrospectives, Backlog Grooming, and Daily Stand-ups."
     )
   ],
 
@@ -69,12 +75,12 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-html5"
     },
     {
-      skillName: "css3",
+      skillName: "css",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "github",
+      fontAwesomeClassname: "fab fa-github"
     },
     {
       skillName: "JavaScript",
@@ -89,8 +95,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "java",
+      fontAwesomeClassname: "fab fa-java"
     },
     {
       skillName: "npm",
@@ -105,8 +111,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "C",
+      fontAwesomeClassname: "fas fa-code"
     },
     {
       skillName: "python",
@@ -126,23 +132,31 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "York University",
+      logo: require("./assets/images/YorkULogo.jpg"),
+      subHeader: "Bachelor of Science in Computer Science",
+      duration: "September 2021 - December 2025",
+      desc: "Courses taken:",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Advanced Object-oriented programming in Java, Data Structure, Introduction to Android development, Net-Centric Introduction to Computing, Database System Management, Computer Organization, Software Tools",
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Cornell University - Online",
+      logo: require("./assets/images/Cornell_Universitylogo.png"),
+      subHeader: "Cybersecurity Certificate",
+      duration: "December 2023 - January 2025",
+      desc: "Courses taken:",
+      descBullets: ["System Security, Authenticating Machines, Authenticating Humans, Discretionary Access Control, Mandatory Access Control"]
+    },
+    {
+      schoolName: "European International School Ho Chi Minh city",
+      logo: require("./assets/images/EISHCMClogo.png"),
+      subHeader:
+        "International Baccalaureate Diploma Program | High School Diploma",
+      duration: "August 2018 - June 2021",
+      desc: "IBDP programInternational Baccalaureate® (IB) Diploma Programme (DP) curriculum",
+      descBullets: ["Chemistry HL, English B HL, Vietnamese A HL, Business Management HL, Biology SL, Math Analysis and approaches SL"]
     }
   ]
 };
@@ -153,16 +167,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "English", //Insert stack or technology you have experience in
+      progressPercentage: "100%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Vietnamese",
+      progressPercentage: "100%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "French",
+      progressPercentage: "80%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -171,7 +185,7 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: false, //Set it to true to show workExperiences Section
   experience: [
     {
       role: "Software Engineer",
@@ -212,6 +226,7 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
+  
   title: "Big Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [

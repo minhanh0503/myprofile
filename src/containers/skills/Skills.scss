@@ -23,9 +23,12 @@
 .skills-heading {
   font-size: 56px;
   font-weight: 400;
+  font-family: "Super Quench";
+  color: #2b2d42;
 }
 .subTitle {
   color: $subTitle;
+  font-family:"Gordita-Regular";
 }
 
 /* Media Query */
@@ -42,6 +45,7 @@
   .greeting-text-p {
     font-size: 16px;
     line-height: normal;
+    
   }
   .skills-main-div {
     flex-direction: column;
@@ -52,10 +56,12 @@
   }
   .skills-text {
     font-size: 16px;
+   
   }
   .skills-text-subtitle {
     font-size: 16px;
     text-align: center;
+    
   }
   .skills-image-div {
     /* display: none; */

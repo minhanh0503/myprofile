@@ -8,9 +8,10 @@
 }
 .greet-main {
   width: 90%;
-  padding: 20px 10px;
+  padding: 20px 20px;
   margin: 0px auto;
   margin-top: 2rem;
+  font-family: "Gordita_Regular";
 }
 
 .greeting-main {
@@ -49,13 +50,13 @@
 }
 
 .greeting-text-p {
-  font-size: 30px;
+  font-size: 25px;
   line-height: 40px;
 }
 
 .greeting-image-div > img {
   max-width: 100%;
-  height: auto;
+  height: 80%;
 }
 
 .wave-emoji {
