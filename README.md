@@ -79,9 +79,9 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 
 Feel free to reach out to me for collaboration, questions, or feedback:
 
-- **Email**: [your.email@example.com](mailto:your.email@example.com)
+- **Email**: [nguyenminhanh290503@gmail.com](mailto:nguyenminhanh290503@gmail.com)
 - **GitHub**: [minhanh0503](https://github.com/minhanh0503)
-- **LinkedIn**: [Your LinkedIn Profile](#)
+- **LinkedIn**: [Minh Anh Nguyễn](https://www.linkedin.com/in/minh-anh-nguy%E1%BB%85n-82968021a/)
 
 Thank you for visiting my portfolio!
 
