@@ -34,7 +34,7 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "/https://github.com/minhanh0503",
+  github: "https://github.com/minhanh0503",
   linkedin: "https://www.linkedin.com/in/minh-anh-nguy%E1%BB%85n-82968021a/",
   gmail: "nguyeminhanh290503@gmail.com",
 
@@ -138,7 +138,7 @@ const educationInfo = {
       duration: "September 2021 - December 2025",
       desc: "Courses taken:",
       descBullets: [
-        "Advanced Object-oriented programming in Java, Data Structure, Introduction to Android development, Net-Centric Introduction to Computing, Database System Management, Computer Organization, Software Tools",
+        "Advanced Object-oriented programming in Java, Data Structure, Introduction to Android development, Net-Centric Introduction to Computing, Database System Management, Computer Organization, Software Tools"
       ]
     },
     {
@@ -147,7 +147,9 @@ const educationInfo = {
       subHeader: "Cybersecurity Certificate",
       duration: "December 2023 - January 2025",
       desc: "Courses taken:",
-      descBullets: ["System Security, Authenticating Machines, Authenticating Humans, Discretionary Access Control, Mandatory Access Control"]
+      descBullets: [
+        "System Security, Authenticating Machines, Authenticating Humans, Discretionary Access Control, Mandatory Access Control"
+      ]
     },
     {
       schoolName: "European International School Ho Chi Minh city",
@@ -156,7 +158,9 @@ const educationInfo = {
         "International Baccalaureate Diploma Program | High School Diploma",
       duration: "August 2018 - June 2021",
       desc: "IBDP programInternational Baccalaureate® (IB) Diploma Programme (DP) curriculum",
-      descBullets: ["Chemistry HL, English B HL, Vietnamese A HL, Business Management HL, Biology SL, Math Analysis and approaches SL"]
+      descBullets: [
+        "Chemistry HL, English B HL, Vietnamese A HL, Business Management HL, Biology SL, Math Analysis and approaches SL"
+      ]
     }
   ]
 };
@@ -226,8 +230,7 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  
-  title: "Big Projects",
+  title: "Projects",
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
@@ -254,7 +257,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -358,7 +361,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -371,7 +374,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -385,20 +388,19 @@ const resumeSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  subtitle: "Contact me if you have any further discussion.",
+  number: "+438-979-2950",
+  email_address: "nguyenminhanh290503@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,

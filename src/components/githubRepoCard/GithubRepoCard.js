@@ -9,7 +9,7 @@ export default function GithubRepoCard({repo, isDark}) {
       console.log(`URL in ${name} is undefined`);
       return;
     }
-    var win = window.open(url, "_blank");
+    var win = window.open(url, "https://github.com/minhanh0503");
     win.focus();
   }
 

@@ -2,6 +2,7 @@
   font-size: 52px;
   font-weight: 400;
   line-height: normal;
+  font-family: "Super Quench";
 }
 
 .startup-project-text img {
@@ -13,18 +14,21 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 1rem 1rem;
+  font-family: "Gordita-Regular";
 }
 
 /* Media Query */
 @media (max-width: 1380px) {
   .project-title {
     font-size: 40px;
+    font-family: "Super Quench";
   }
 }
 @media (max-width: 768px) {
   .project-title {
     font-size: 30px;
     text-align: center;
+    font-family: "Super Quench";
   }
   .repo-cards-div-main {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
