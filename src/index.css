@@ -1,9 +1,9 @@
 @font-face {
-  font-family: "Agustina Regular";
+  font-family: "Gordita-Regular";
   font-style: normal;
   font-weight: normal;
-  src: local("Agustina Regular"),
-    url("./assets/fonts/Agustina.woff") format("woff");
+  src: local("Gordita-Regular"),
+    url("./assets/fonts/Gordita-Regular.otf") format("otf");
   font-display: swap;
 }
 @font-face {
@@ -22,7 +22,7 @@ body {
 }
 body {
   margin: 0;
-  font: 19px / 23px Montserrat, "Montserrat", sans-serif;
+  font: 19px / 23px Gordita-Regular, "Gordita-Regular", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -30,6 +30,7 @@ body {
 @media (max-width: 1380px) {
   html,
   body {
+    font-family: "Gordita-Regular";
     font-size: rem;
     line-height: normal;
   }
