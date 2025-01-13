@@ -245,6 +245,18 @@ const bigProjects = {
         }
         //  you can add extra buttons here.
       ]
+    },
+    {
+      image: require("./assets/images/GitHub-logo.png"),
+      projectName: "GitHub Projects",
+      projectDesc: "My previous and current projects",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://github.com/minhanh0503"
+        }
+        //  you can add extra buttons here.
+      ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
