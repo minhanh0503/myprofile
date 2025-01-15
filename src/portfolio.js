@@ -390,8 +390,8 @@ const resumeSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle: "Contact me if you have any further discussion.",
-  number: "+438-979-2950",
+  subtitle: "Please contact me if you have any further discussion.",
+  number: "+1 (438)-979-2950 | (+84) 90-268-3005",
   email_address: "nguyenminhanh290503@gmail.com"
 };
 
