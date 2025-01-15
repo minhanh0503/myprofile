@@ -1,5 +1,5 @@
 {
-  "homepage": "https://developerfolio.js.org/",
+  "homepage": "https://minhanhne.vercel.app/",
   "name": "MinhAnhNguyen",
   "version": "0.1.0",
   "private": true,
@@ -52,7 +52,8 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
-    "dotenv": "^8.2.0",
+    "@types/dotenv": "^8.2.3",
+    "dotenv": "^8.6.0",
     "prettier": "^2.3.1"
   }
 }
