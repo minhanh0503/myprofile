@@ -1,4 +1,4 @@
-# Minh Anh Nguyen profile
+# Minh Anh Nguyen portfolio
 
 Welcome to **MyProfile**! This project serves as a portfolio showcasing my skills, experience, and projects. It is designed to give potential employers or collaborators an overview of my professional journey and technical capabilities.
 
